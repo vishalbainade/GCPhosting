@@ -1,0 +1,30 @@
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backend specific
+backend/node_modules/
+backend/.env
+backend/uploads/
+backend/config/ticket-467912-6909c1bbbd2d.json
+
+# Frontend specific
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.test
+frontend/.env.production
+
+# Backup folders
+backup be/
